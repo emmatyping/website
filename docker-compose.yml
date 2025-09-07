@@ -1,0 +1,13 @@
+version: 3
+services:
+  main_website:
+    image: docker.io/nginxinc/nginx-unprivileged
+    restart: unless-stopped
+    volumes:
+      - './nginx.conf:/etc/nginx/conf.d/default.conf'
+      - './public:/opt/data'
+
+networks:
+  default:
+    external:
+      name: nginx-proxy-network

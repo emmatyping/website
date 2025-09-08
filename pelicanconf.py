@@ -49,3 +49,5 @@ CSS_MIN = True
 JS_MIN = True
 
 RELATIVE_URLS = True
+
+MASTODON_URL = "https://hachyderm.io/@emmatyping"

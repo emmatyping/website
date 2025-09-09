@@ -6,7 +6,7 @@ There are several ways to contact me.
 
 If you prefer email, you can contact me at the address below:
 
-<a href="mailto:emma@emmatyping.dev">emma@emmatyping.dev</a>
+<a href="mailto:emma@emmatyping.dev"><emma@emmatyping.dev></a>
 
 ## bluesky
 
@@ -14,4 +14,4 @@ I am <a href="https://bsky.app/profile/emmatyping.dev">@emmatyping.dev</a> on bl
 
 ## mastodon
 
-I am <a rel="me" href="https://hachyderm.io/@emmatyping">@emmatyping@hachyderm.io</a>. I don't check mastodon quite as much anymore, but if you message me I will see it.
+I am <a rel="me" href="https://hachyderm.io/@emmatyping">@<emmatyping@hachyderm.io></a>. I don't check mastodon quite as much anymore, but if you message me I will see it.

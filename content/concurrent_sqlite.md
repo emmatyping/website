@@ -15,7 +15,7 @@ I ended up wanting to generate somewhere in the region of a few hundred billion 
 
 ### Disk Space Woes
 
-For saving the generated matrices, I started off by doing the simplest thing, just using plain-old `np.savetxt` to save the (pretty tiny) matrices to disk in each process after computing the product of the matrices in the quantum circuit. This... was problematic. I quickly ran into a disk out of space error. Normally this means I need to clear out space on whatever VM I am using, but there was one problem -- I still had hundreds of gigabytes of space left on disk! 
+For saving the generated matrices, I started off by doing the simplest thing, just using plain-old `np.savetxt` to save the (pretty tiny) matrices to disk in each process after computing the product of the matrices in the quantum circuit. This... was problematic. I quickly ran into a disk out of space error. Normally this means I need to clear out space on whatever VM I am using, but there was one problem -- I still had hundreds of gigabytes of space left on disk!
 
 I quickly deduced the error actually was caused by hitting the limit on entries in a directory, dang it [CIFS](https://cifs.com/)! I briefly tried to make my own schema to split the unitaries into more directories to avoid this limit but I ended up hitting more file system limits. It was clear just writing files to disk wouldn't scale to the size of dataset I needed to generate.
 

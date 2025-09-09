@@ -72,4 +72,4 @@ publish:
 serve-published:
 	"$(PELICAN)" -l "$(INPUTDIR)" -o public -s "$(PUBLISHCONF)" $(PELICANOPTS)
 
-.PHONY: html help clean regenerate serve serve-global devserver devserver-global publish serve-published 
+.PHONY: html help clean regenerate serve serve-global devserver devserver-global publish serve-published

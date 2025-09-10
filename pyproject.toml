@@ -1,0 +1,13 @@
+[project]
+name = "website"
+version = "0.1.0"
+authors = [
+    { name = "Emma Harper Smith", email = "emma@emmatyping.dev" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "minify-html<0.16.0",
+    "pelican-minify>=2.0.0",
+    "pelican-neighbors>=1.2.0",
+    "pelican[markdown]>=4.11.0",
+]

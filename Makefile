@@ -1,5 +1,5 @@
 PY?=
-PELICAN?=pelican
+PELICAN?=.venv/bin/pelican
 PELICANOPTS=
 
 BASEDIR=$(CURDIR)

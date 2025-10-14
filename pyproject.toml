@@ -10,4 +10,5 @@ dependencies = [
     "pelican-minify>=2.0.0",
     "pelican-neighbors>=1.2.0",
     "pelican[markdown]>=4.11.0",
+    "pymdown-extensions>=10.16.1",
 ]

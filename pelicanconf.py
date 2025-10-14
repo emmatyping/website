@@ -45,6 +45,18 @@ PLUGINS = [
     "pelican.plugins.minify",
 ]
 
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {
+            'noclasses': True,
+            'pygments_style': 'github-dark',
+        },
+        'pymdownx.tilde': {
+            'subscript': False,
+        }
+    }
+}
+
 CSS_MIN = True
 JS_MIN = True
 

@@ -43,6 +43,7 @@ BACKGROUND_COLOR = 'dark'
 PLUGINS = [
     "pelican.plugins.neighbors",
     "pelican.plugins.minify",
+    "pelican.plugins.statistics",
 ]
 
 MARKDOWN = {
@@ -51,9 +52,11 @@ MARKDOWN = {
             'noclasses': True,
             'pygments_style': 'github-dark',
         },
+        'pymdownx.details': {},
         'pymdownx.tilde': {
             'subscript': False,
-        }
+        },
+        'markdown.extensions.tables': {},
     }
 }
 

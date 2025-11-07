@@ -69,6 +69,10 @@ publish:
 	"$(PELICAN)" "$(INPUTDIR)" -o public/ -s "$(PUBLISHCONF)" $(PELICANOPTS)
 	chown -R ${USER}:${USER} public/
 
+preview:
+	"$(PELICAN)" "$(INPUTDIR)" -o preview/ -s "$(PUBLISHCONF)" $(PELICANOPTS)
+	chown -R ${USER}:${USER} preview/
+
 serve-published:
 	"$(PELICAN)" -l "$(INPUTDIR)" -o public -s "$(PUBLISHCONF)" $(PELICANOPTS)
 

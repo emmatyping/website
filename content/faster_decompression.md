@@ -1,5 +1,5 @@
 Title: Decompression is up to 30% faster in CPython 3.15
-Date: 2025-11-05
+Date: 2025-11-11
 Tags: python, compression, zstd
 
 > **tl;dr**<br>
